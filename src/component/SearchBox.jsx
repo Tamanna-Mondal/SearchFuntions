@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./SearchBox.css"; // 👈 Import the CSS file
+import "./SearchBox.css"; 
 
 export default function SearchBox() {
   const [pg, setPg] = useState("");
